@@ -29,29 +29,29 @@ let s:cterm_green_offset = 107
 let s:gui_white = "#FFFFFF"
 let s:cterm_white = 255
 
-let g:airline#themes#night_owl#palette = {}
+let g:airline#themes#dracula_van_helsing#palette = {}
 
 let s:N1 = [ s:gui_black, s:gui_cyan, s:cterm_black, s:cterm_cyan ]
 let s:N2 = [ s:gui_black, s:gui_cyan_offset,  s:cterm_black, s:cterm_cyan_offset ]
 let s:N3 = [ s:gui_cyan, s:gui_black, s:cterm_cyan, s:cterm_black ]
-let g:airline#themes#night_owl#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
+let g:airline#themes#dracula_van_helsing#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 
 let s:I1 = [ s:gui_black, s:gui_green, s:cterm_black, s:cterm_green ]
 let s:I2 = [ s:gui_black, s:gui_green_offset, s:cterm_black, s:cterm_green_offset ]
 let s:I3 = [ s:gui_green, s:gui_black, s:cterm_green, s:cterm_black ]
-let g:airline#themes#night_owl#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
+let g:airline#themes#dracula_van_helsing#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
 
 let s:V1 = [ s:gui_black, s:gui_blue, s:cterm_black, s:cterm_blue ]
 let s:V2 = [ s:gui_black, s:gui_blue_offset,  s:cterm_black, s:cterm_blue_offset ]
 let s:V3 = [ s:gui_blue, s:gui_black, s:cterm_blue, s:cterm_black ]
-let g:airline#themes#night_owl#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
+let g:airline#themes#dracula_van_helsing#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
 
 let s:R1 = [ s:gui_black, s:gui_yellow, s:cterm_black, s:cterm_yellow ]
 let s:R2 = [ s:gui_black, s:gui_yellow_offset, s:cterm_black, s:cterm_yellow_offset ]
 let s:R3 = [ s:gui_yellow, s:gui_black, s:cterm_yellow, s:cterm_black ]
-let g:airline#themes#night_owl#palette.replace = airline#themes#generate_color_map(s:R1, s:R2, s:R3)
+let g:airline#themes#dracula_van_helsing#palette.replace = airline#themes#generate_color_map(s:R1, s:R2, s:R3)
 
 let s:IA1 = [ s:gui_black, s:gui_purple, s:cterm_black, s:cterm_purple ]
 let s:IA2 = [ s:gui_purple, s:gui_black, s:cterm_purple, s:cterm_black ]
 let s:IA3 = [ s:gui_purple, s:gui_black, s:cterm_purple, s:cterm_black ]
-let g:airline#themes#night_owl#palette.inactive = airline#themes#generate_color_map(s:IA1, s:IA2, s:IA3)
+let g:airline#themes#dracula_van_helsing#palette.inactive = airline#themes#generate_color_map(s:IA1, s:IA2, s:IA3)
