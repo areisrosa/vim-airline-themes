@@ -92,6 +92,7 @@ Currently this repository contains the following themes:
     * desertink
     * deus
     * distinguished
+    * dracula_pro
     * dracula_van_helsing
     * durant
     * faryfloss
