@@ -1,4 +1,7 @@
-let s:gui_black = "#21222c"
+" Port/insired from https://github/dracula/dracula.vim
+" Anderson Reis
+
+let s:gui_black = "#282C34"
 let s:cterm_black = 16
 
 let s:gui_purple = "#C792EA"
