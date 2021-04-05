@@ -19,7 +19,7 @@ let s:cterm_blue = 111
 let s:gui_blue_offset = "#6788cc"
 let s:cterm_blue_offset = 68
 
-let s:gui_cyan = "#83DCC8"
+let s:gui_cyan = "#50fa7b"
 let s:cterm_cyan = 116
 let s:gui_cyan_offset = "#68b0a0"
 let s:cterm_cyan_offset = 73
